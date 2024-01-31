@@ -18,6 +18,7 @@
       - flameshot
       - exiftool
       - crowbar
+      - smtp-user-enum
     state: latest
   become: true
   become_method: sudo
