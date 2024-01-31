@@ -5,7 +5,6 @@
   roles:
     - role: "roles/install-tools"
     - role: "roles/configure-tmux"
-#    - role: "roles/customize-terminal"
     - role: "roles/customize-browser"
     - role: "roles/configure-system"
     - role: "roles/configure-vim"
