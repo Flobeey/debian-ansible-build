@@ -20,4 +20,5 @@
     - evil-winrm
   become: true
   become_method: sudo
+  ignore_errors: true
 
