@@ -1,6 +1,6 @@
 ---
 - name: "install go tools"
-  shell: /usr/local/go/bin/go install github.com/ropnop/kerbrute@master
-  shell: /usr/local/go/bin/go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+  shell: "/usr/local/go/bin/go install github.com/ropnop/kerbrute@master"
+  shell: "/usr/local/go/bin/go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest"
   ignore_errors: yes
 
