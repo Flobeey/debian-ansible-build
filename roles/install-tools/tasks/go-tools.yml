@@ -1,0 +1,6 @@
+---
+- name: "install go tools"
+  shell: go install github.com/ropnop/kerbrute@master
+  shell: go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+  shell: go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+
