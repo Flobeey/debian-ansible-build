@@ -3,9 +3,9 @@
   hosts: localhost
   connection: local
   roles:
-    - role: "roles/install-tools"
-    - role: "roles/configure-tmux"
-    - role: "roles/configure-system"
     - role: "roles/configure-vim"
+    - role: "roles/configure-tmux"
+    - role: "roles/install-tools"
+    - role: "roles/configure-system"
       users:
         - username: "{{ ansible_user_id }}" 
