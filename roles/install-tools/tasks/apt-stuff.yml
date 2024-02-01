@@ -15,10 +15,10 @@
       - jq
       - pipx
       - ntpdate
-      - flameshot
       - exiftool
       - crowbar
       - smtp-user-enum
     state: latest
   become: true
   become_method: sudo
+  ignore_errors: true
